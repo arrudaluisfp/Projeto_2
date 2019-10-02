@@ -12,7 +12,7 @@
       * Desabilitar o controlador independentemente da temperatura.
 
 <div align="center">
-   <img src="diagrama_de_blocos.png" alt="diagrama" width="50%" height="20%"/></center>
+   <img src="diagrama_de_blocos.PNG" alt="diagrama" width="50%" height="20%"/></center>
 </div>
 
 * **Funcionamento:**
