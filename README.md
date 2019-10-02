@@ -6,9 +6,9 @@
       * Novo set-point.
       * Valor do ganho do Heat.
       * Valor do ganho do Fan.
-	  * Se o modo vai ser manual.
-	  * Ganho manual do Heat.
-	  * Ganho manual do Fan.
+      * Se o modo vai ser manual.
+      * Ganho manual do Heat.
+      * Ganho manual do Fan.
       * Desabilitar o controlador independentemente da temperatura.
 
 <div align="center">
@@ -17,7 +17,7 @@
 
 * **Funcionamento:**
 
-   O sistema se inicializa na tela de supervisão. Nela é possível observar o estado atual do controlador, os valores de set-point e o valor da temperatura atual. Ao clicar no botão P, o sistema altera a tela, sendo que existem 6 telas se o modo manual estiver desativado, e 8 telas se estiver ativado. Estando na tela desejada, ao clicar no botão S aparecerá a opção de editar os valores, independente da tela. Para editar alguma configuração de alguma tela, dar um clique simples no botão P (se for editar ON/OFF) ou clicar nos botões UP e DOWN para alterar valores. Para salvar a configuração, clicar no botão S novamente.
+   O sistema se inicializa na tela de supervisão, com o ganho de valor 15.0 que melhor se ajustou tanto para o FAN quanto para o HEAT. Nela é possível observar o estado atual do controlador, os valores de set-point e o valor da temperatura atual. Ao clicar no botão P, o sistema altera a tela, sendo que existem 6 telas se o modo manual estiver desativado, e 8 telas se estiver ativado. Estando na tela desejada, ao clicar no botão S aparecerá a opção de editar os valores, independente da tela. Para editar alguma configuração de alguma tela, dar um clique simples no botão P (se for editar ON/OFF) ou clicar nos botões UP e DOWN para alterar valores. Para salvar a configuração, clicar no botão S novamente.
 
 * **Periféricos:**
    * **Sensor:** O Sensor de temperatura utilizado é o sensor analógico LM35.
@@ -34,3 +34,12 @@
    * **Arquivo .hex:** Ao compilar a aplicação, os arquivos .hex e .elf ficam localizados na pasta **Release**. 
 
  
+* **Fotos:**
+
+<div align="center">
+   <img src="proteus.PNG" alt="diagrama" width="50%" height="20%"/></center>
+</div>
+
+<div align="center">
+   <img src="protoboard.jpeg" alt="diagrama" width="50%" height="20%"/></center>
+</div>
