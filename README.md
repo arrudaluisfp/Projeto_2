@@ -34,3 +34,12 @@
    * **Arquivo .hex:** Ao compilar a aplicação, os arquivos .hex e .elf ficam localizados na pasta **Release**. 
 
  
+* **Fotos:**
+
+<div align="center">
+   <img src="proteus.PNG" alt="diagrama" width="50%" height="20%"/></center>
+</div>
+
+<div align="center">
+   <img src="protoboard.JPEG" alt="diagrama" width="50%" height="20%"/></center>
+</div>
