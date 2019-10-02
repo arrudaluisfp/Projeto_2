@@ -22,7 +22,6 @@
 * **Periféricos:**
    * **Sensor:** O Sensor de temperatura utilizado é o sensor analógico LM35.
    * **MCU:** O MCU escolhido para o desenvolvimento foi o ATMega328p (Arduino) e ele é o responsável pelas tarefas de controle e interface do sistema. 
-   * **Driver:** O driver do controlador é composto um único transistor do tipo MOSFET ligado no componente virtual OVEN do Proteus.
    * **L293D:** Ponte H utilizada para controlar ventilador e aquecedor.
    * **Ventilador:** Utilizado para o modo Fan.
    * **Aquecedor:** Utilizado para o modo Heat.
