@@ -28,7 +28,8 @@
    * **Aquecedor:** Utilizado para o modo Heat.
 
 * **Software:**
-   * **Bibliotecas utilizadas:** LiquidCrystal
+   * **IDE:** Foi utilizada Sloeber, IDE do Eclipse para o Arduino.
+   * **Bibliotecas utilizadas:** LiquidCrystal e Bounce2.
    * **Definições:** O arquivo */include/definitions.h* contém todas as definições de GPIOs, ID das telas da interface, parâmetros iniciais do controlador e a assinatura dos métodos.
    * **Arquivo .hex:** Ao compilar a aplicação, os arquivos .hex e .elf ficam localizados na pasta **Release**. 
 
