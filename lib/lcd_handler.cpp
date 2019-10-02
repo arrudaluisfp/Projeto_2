@@ -13,13 +13,14 @@
 LiquidCrystal lcd(12, 11, 4, 3, 2, 1);
 
 int screen, heat_pwm_manual, fan_pwm_manual, heat_state, fan_state;
-float current_temperature, setpoint, gainH = 1.0, gainF = 1.0;
+float current_temperature, setpoint, gainH = 15.0, gainF = 15.0;
 bool manual_mode;
 
 void lcd_display_config()
 {
 	//Define o número de colunas e linhas do LCD
 	lcd.begin(16, 2);
+
 }
 
 //MAIN SCREEN

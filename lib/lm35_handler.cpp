@@ -14,11 +14,11 @@ void LM35_temperature()
 	float vet[10];
 	float Sum = 0;
 
-	for (int i = 0; i < 10; i++) {
+	for (int i = 0; i < 100; i++) {
 		vet[i] = (float(analogRead(lm35)) * 5 / (1023)) / 0.01;
 		Sum += vet[i];
 	}
-	Sum = (Sum / 10);
+	Sum = (Sum / 100);
 	current_temperature = Sum;
 
 }

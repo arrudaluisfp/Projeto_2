@@ -31,7 +31,7 @@ void controller()
 {
 	inH = (setpoint - current_temperature) * gainH;
 	if(inH > 70) inH = 70;
-	inF = (setpoint - current_temperature) * gainF;
+	inF = (setpoint + current_temperature) * gainF;
 	if(inF > 255) inF = 255;
 	if(inF < 56) inF = 56;
 }
