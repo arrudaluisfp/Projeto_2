@@ -11,7 +11,7 @@
 
 void LM35_temperature()
 {
-	float vet[10];
+	float vet[100];
 	float Sum = 0;
 
 	for (int i = 0; i < 100; i++) {
